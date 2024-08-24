@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d6aee9cea7b1c874e8dce39083ee4629 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d6aee9cea7b1c874e8dce39083ee4629" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d6aee9cea7b1c874e8dce39083ee4629 = L.map(
+                "map_d6aee9cea7b1c874e8dce39083ee4629",
+                {
+                    center: [37.7206967461445, -89.24726610263167],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0cf02c4d9c3ff2aac44da6c867440ed4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0cf02c4d9c3ff2aac44da6c867440ed4.addTo(map_d6aee9cea7b1c874e8dce39083ee4629);
+        
+    
+            var marker_ec9edf097d0d1ab959b88251943de82a = L.marker(
+                [37.7206967461445, -89.24726610263167],
+                {}
+            ).addTo(map_d6aee9cea7b1c874e8dce39083ee4629);
+        
+    
+            var icon_d8287d691371552adeae0a35d70d7239 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec9edf097d0d1ab959b88251943de82a.setIcon(icon_d8287d691371552adeae0a35d70d7239);
+        
+    
+        var popup_d1cea371068fcf555918f5c8b1980f04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bf6e03174179c207f05e196efc76ee2 = $(`<div id="html_9bf6e03174179c207f05e196efc76ee2" style="width: 100.0%; height: 100.0%;">Subscriber ID: fd7a896b-bcb7-4958-a149-6142d391c582</div>`)[0];
+                popup_d1cea371068fcf555918f5c8b1980f04.setContent(html_9bf6e03174179c207f05e196efc76ee2);
+            
+        
+
+        marker_ec9edf097d0d1ab959b88251943de82a.bindPopup(popup_d1cea371068fcf555918f5c8b1980f04)
+        ;
+
+        
+    
+    
+            var marker_7d195ba2ec418c003b281fe5c33647a6 = L.marker(
+                [37.68821645351016, -89.21069698873366],
+                {}
+            ).addTo(map_d6aee9cea7b1c874e8dce39083ee4629);
+        
+    
+            var icon_a6c91b46946a873ea54e39cfd346ab8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7d195ba2ec418c003b281fe5c33647a6.setIcon(icon_a6c91b46946a873ea54e39cfd346ab8d);
+        
+    
+        var popup_7ba11a310a5842bff808d7d8ba4d9eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_447a3a2d41e2bc07e1555128ab9a76bd = $(`<div id="html_447a3a2d41e2bc07e1555128ab9a76bd" style="width: 100.0%; height: 100.0%;">POI: Giant City State Park</div>`)[0];
+                popup_7ba11a310a5842bff808d7d8ba4d9eb4.setContent(html_447a3a2d41e2bc07e1555128ab9a76bd);
+            
+        
+
+        marker_7d195ba2ec418c003b281fe5c33647a6.bindPopup(popup_7ba11a310a5842bff808d7d8ba4d9eb4)
+        ;
+
+        
+    
+    
+            var marker_b7fc29f0a1ab869c997e5c29b744ae81 = L.marker(
+                [37.692914180931474, -89.23375086401252],
+                {}
+            ).addTo(map_d6aee9cea7b1c874e8dce39083ee4629);
+        
+    
+            var icon_cfa2151e953c3daf2a3e17f67706e28b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b7fc29f0a1ab869c997e5c29b744ae81.setIcon(icon_cfa2151e953c3daf2a3e17f67706e28b);
+        
+    
+        var popup_3609d58a94b8011cefd94ebbb37d9a2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaa15179a624493dba78ced40b036248 = $(`<div id="html_aaa15179a624493dba78ced40b036248" style="width: 100.0%; height: 100.0%;">POI: Southern Illinois University</div>`)[0];
+                popup_3609d58a94b8011cefd94ebbb37d9a2e.setContent(html_aaa15179a624493dba78ced40b036248);
+            
+        
+
+        marker_b7fc29f0a1ab869c997e5c29b744ae81.bindPopup(popup_3609d58a94b8011cefd94ebbb37d9a2e)
+        ;
+
+        
+    
+    
+            var marker_0f98716825edad3382520b3c1e86b4da = L.marker(
+                [37.71648937259977, -89.25768282600622],
+                {}
+            ).addTo(map_d6aee9cea7b1c874e8dce39083ee4629);
+        
+    
+            var icon_d7f387f9734d54faf9e57eac6a7fbfc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f98716825edad3382520b3c1e86b4da.setIcon(icon_d7f387f9734d54faf9e57eac6a7fbfc6);
+        
+    
+        var popup_65900fae4408b9a3029939020c67bcf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_933f11058c7e55a4d135141316b38de4 = $(`<div id="html_933f11058c7e55a4d135141316b38de4" style="width: 100.0%; height: 100.0%;">POI: Crab Orchard National Wildlife Refuge</div>`)[0];
+                popup_65900fae4408b9a3029939020c67bcf0.setContent(html_933f11058c7e55a4d135141316b38de4);
+            
+        
+
+        marker_0f98716825edad3382520b3c1e86b4da.bindPopup(popup_65900fae4408b9a3029939020c67bcf0)
+        ;
+
+        
+    
+    
+            var marker_691ff7085f0384010285bd4ce877a431 = L.marker(
+                [37.76723238043924, -89.20706406728026],
+                {}
+            ).addTo(map_d6aee9cea7b1c874e8dce39083ee4629);
+        
+    
+            var icon_2e162268b9780d7c2bf36ef71e2b7686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_691ff7085f0384010285bd4ce877a431.setIcon(icon_2e162268b9780d7c2bf36ef71e2b7686);
+        
+    
+        var popup_c04e70250dbf5d7ad2f87ca415fefb96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efaa58a292e7968fd054b4f417aa0b39 = $(`<div id="html_efaa58a292e7968fd054b4f417aa0b39" style="width: 100.0%; height: 100.0%;">POI: Cedar Lake</div>`)[0];
+                popup_c04e70250dbf5d7ad2f87ca415fefb96.setContent(html_efaa58a292e7968fd054b4f417aa0b39);
+            
+        
+
+        marker_691ff7085f0384010285bd4ce877a431.bindPopup(popup_c04e70250dbf5d7ad2f87ca415fefb96)
+        ;
+
+        
+    
+    
+            var marker_306bd5ab2c6cde0bad58c71ac883e04a = L.marker(
+                [37.69191305163388, -89.20432134513493],
+                {}
+            ).addTo(map_d6aee9cea7b1c874e8dce39083ee4629);
+        
+    
+            var icon_24e7ebd8837deda0045decdb2846470e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_306bd5ab2c6cde0bad58c71ac883e04a.setIcon(icon_24e7ebd8837deda0045decdb2846470e);
+        
+    
+        var popup_2e7954e06b8d0a366ec1aa58183a4873 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e0f2a4652a2372842a3f94a93e9a21 = $(`<div id="html_51e0f2a4652a2372842a3f94a93e9a21" style="width: 100.0%; height: 100.0%;">POI: Boo Rochman Memorial Park</div>`)[0];
+                popup_2e7954e06b8d0a366ec1aa58183a4873.setContent(html_51e0f2a4652a2372842a3f94a93e9a21);
+            
+        
+
+        marker_306bd5ab2c6cde0bad58c71ac883e04a.bindPopup(popup_2e7954e06b8d0a366ec1aa58183a4873)
+        ;
+
+        
+    
+</script>
+</html>

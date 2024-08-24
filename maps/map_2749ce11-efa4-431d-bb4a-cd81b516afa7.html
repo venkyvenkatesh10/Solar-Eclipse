@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0fca5fb0d768b92f425046219971d3cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0fca5fb0d768b92f425046219971d3cf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0fca5fb0d768b92f425046219971d3cf = L.map(
+                "map_0fca5fb0d768b92f425046219971d3cf",
+                {
+                    center: [39.75267336830481, -84.23698351688515],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_58a58fd1ad43bcce966f913e49b52ad9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_58a58fd1ad43bcce966f913e49b52ad9.addTo(map_0fca5fb0d768b92f425046219971d3cf);
+        
+    
+            var marker_5a357d92dd3a033bc75bcc28ca20f3a9 = L.marker(
+                [39.75267336830481, -84.23698351688515],
+                {}
+            ).addTo(map_0fca5fb0d768b92f425046219971d3cf);
+        
+    
+            var icon_e333a8d3fd464e7f63846a52d7aa4579 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a357d92dd3a033bc75bcc28ca20f3a9.setIcon(icon_e333a8d3fd464e7f63846a52d7aa4579);
+        
+    
+        var popup_277a970e93e73b3ead87d509d4ef469c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dac86bdbd41ab8405d3bbff98085e14f = $(`<div id="html_dac86bdbd41ab8405d3bbff98085e14f" style="width: 100.0%; height: 100.0%;">Subscriber ID: 2749ce11-efa4-431d-bb4a-cd81b516afa7</div>`)[0];
+                popup_277a970e93e73b3ead87d509d4ef469c.setContent(html_dac86bdbd41ab8405d3bbff98085e14f);
+            
+        
+
+        marker_5a357d92dd3a033bc75bcc28ca20f3a9.bindPopup(popup_277a970e93e73b3ead87d509d4ef469c)
+        ;
+
+        
+    
+    
+            var marker_2012225add616e098925b69450b89d38 = L.marker(
+                [39.73628444856127, -84.16014636799547],
+                {}
+            ).addTo(map_0fca5fb0d768b92f425046219971d3cf);
+        
+    
+            var icon_1e0b62cc929364f7d6c38e209293f453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2012225add616e098925b69450b89d38.setIcon(icon_1e0b62cc929364f7d6c38e209293f453);
+        
+    
+        var popup_74a9423265257d0417a7bda71b2150c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04984f5036069ae86bc01b2a7d4435bf = $(`<div id="html_04984f5036069ae86bc01b2a7d4435bf" style="width: 100.0%; height: 100.0%;">POI: National Museum of the USAF</div>`)[0];
+                popup_74a9423265257d0417a7bda71b2150c1.setContent(html_04984f5036069ae86bc01b2a7d4435bf);
+            
+        
+
+        marker_2012225add616e098925b69450b89d38.bindPopup(popup_74a9423265257d0417a7bda71b2150c1)
+        ;
+
+        
+    
+    
+            var marker_4d474d0fb6b092f40d4aec89201adb53 = L.marker(
+                [39.73237397915103, -84.23201072324629],
+                {}
+            ).addTo(map_0fca5fb0d768b92f425046219971d3cf);
+        
+    
+            var icon_3cdf6f4c211e99cf78897b06b27cd9e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4d474d0fb6b092f40d4aec89201adb53.setIcon(icon_3cdf6f4c211e99cf78897b06b27cd9e6);
+        
+    
+        var popup_677ba7b7593106eb3871458e6f7d25f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fba28d5f358705578e3c8e3ea70af69 = $(`<div id="html_7fba28d5f358705578e3c8e3ea70af69" style="width: 100.0%; height: 100.0%;">POI: Carillon Historical Park</div>`)[0];
+                popup_677ba7b7593106eb3871458e6f7d25f2.setContent(html_7fba28d5f358705578e3c8e3ea70af69);
+            
+        
+
+        marker_4d474d0fb6b092f40d4aec89201adb53.bindPopup(popup_677ba7b7593106eb3871458e6f7d25f2)
+        ;
+
+        
+    
+    
+            var marker_babbf6ab36063cdda14a56804eada2f5 = L.marker(
+                [39.7817333813603, -84.19991901721677],
+                {}
+            ).addTo(map_0fca5fb0d768b92f425046219971d3cf);
+        
+    
+            var icon_b965ad18c2a68045d6fdfab57f7b3a52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_babbf6ab36063cdda14a56804eada2f5.setIcon(icon_b965ad18c2a68045d6fdfab57f7b3a52);
+        
+    
+        var popup_18f69de3c03dc4674c591af69752415c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa1cf3d3ffe495dc5e0aff1144edd3b8 = $(`<div id="html_aa1cf3d3ffe495dc5e0aff1144edd3b8" style="width: 100.0%; height: 100.0%;">POI: Dayton Aviation Heritage Park</div>`)[0];
+                popup_18f69de3c03dc4674c591af69752415c.setContent(html_aa1cf3d3ffe495dc5e0aff1144edd3b8);
+            
+        
+
+        marker_babbf6ab36063cdda14a56804eada2f5.bindPopup(popup_18f69de3c03dc4674c591af69752415c)
+        ;
+
+        
+    
+    
+            var marker_6d44a0405e1404781061f353bd671a0a = L.marker(
+                [39.725155938511115, -84.2121334046373],
+                {}
+            ).addTo(map_0fca5fb0d768b92f425046219971d3cf);
+        
+    
+            var icon_4b731047415afe997270f1887c6c76bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d44a0405e1404781061f353bd671a0a.setIcon(icon_4b731047415afe997270f1887c6c76bc);
+        
+    
+        var popup_116a5d24c94205f6f7567978e1e1363c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10181c16005d62a419f1c030e51aaed8 = $(`<div id="html_10181c16005d62a419f1c030e51aaed8" style="width: 100.0%; height: 100.0%;">POI: Boonshoft Museum</div>`)[0];
+                popup_116a5d24c94205f6f7567978e1e1363c.setContent(html_10181c16005d62a419f1c030e51aaed8);
+            
+        
+
+        marker_6d44a0405e1404781061f353bd671a0a.bindPopup(popup_116a5d24c94205f6f7567978e1e1363c)
+        ;
+
+        
+    
+    
+            var marker_604807351ee6d90f9b7fc6801eca50e1 = L.marker(
+                [39.75404768882566, -84.1917612094966],
+                {}
+            ).addTo(map_0fca5fb0d768b92f425046219971d3cf);
+        
+    
+            var icon_abd07b1b4b9b931535e3962b1089d2b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_604807351ee6d90f9b7fc6801eca50e1.setIcon(icon_abd07b1b4b9b931535e3962b1089d2b0);
+        
+    
+        var popup_721293eb4cacb92cdb675cc434db6f09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13c1182fd94a0e9e8fb2ba4b4178b729 = $(`<div id="html_13c1182fd94a0e9e8fb2ba4b4178b729" style="width: 100.0%; height: 100.0%;">POI: Wegerzyn Gardens</div>`)[0];
+                popup_721293eb4cacb92cdb675cc434db6f09.setContent(html_13c1182fd94a0e9e8fb2ba4b4178b729);
+            
+        
+
+        marker_604807351ee6d90f9b7fc6801eca50e1.bindPopup(popup_721293eb4cacb92cdb675cc434db6f09)
+        ;
+
+        
+    
+</script>
+</html>

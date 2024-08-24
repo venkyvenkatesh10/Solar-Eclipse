@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_72724ed86ccdff5ff6e106267f686387 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_72724ed86ccdff5ff6e106267f686387" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_72724ed86ccdff5ff6e106267f686387 = L.map(
+                "map_72724ed86ccdff5ff6e106267f686387",
+                {
+                    center: [41.69401957885856, -83.57580347266178],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7d06714f8931614d054033804924bc3a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7d06714f8931614d054033804924bc3a.addTo(map_72724ed86ccdff5ff6e106267f686387);
+        
+    
+            var marker_26390288be1c16582dbda1e7d1e00280 = L.marker(
+                [41.69401957885856, -83.57580347266178],
+                {}
+            ).addTo(map_72724ed86ccdff5ff6e106267f686387);
+        
+    
+            var icon_556b1b9cd1578fff3b4aee9d7823ecc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26390288be1c16582dbda1e7d1e00280.setIcon(icon_556b1b9cd1578fff3b4aee9d7823ecc7);
+        
+    
+        var popup_a0b92fd27146d8fe6c611680fa3265e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04797ce2fe2b4df965b654f0ad564347 = $(`<div id="html_04797ce2fe2b4df965b654f0ad564347" style="width: 100.0%; height: 100.0%;">Subscriber ID: 89bf982a-b0fe-4fad-84e3-767841396896</div>`)[0];
+                popup_a0b92fd27146d8fe6c611680fa3265e3.setContent(html_04797ce2fe2b4df965b654f0ad564347);
+            
+        
+
+        marker_26390288be1c16582dbda1e7d1e00280.bindPopup(popup_a0b92fd27146d8fe6c611680fa3265e3)
+        ;
+
+        
+    
+    
+            var marker_07ed2fea4bf1dac5ed1ae8f45e5466be = L.marker(
+                [41.64940015277504, -83.55455205964122],
+                {}
+            ).addTo(map_72724ed86ccdff5ff6e106267f686387);
+        
+    
+            var icon_b8062660c9c83dcfec83e8275a41fa1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_07ed2fea4bf1dac5ed1ae8f45e5466be.setIcon(icon_b8062660c9c83dcfec83e8275a41fa1e);
+        
+    
+        var popup_2c7100a6915b9f0d3f24122b62ab5335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81f5045fbaba9c67e48789615decd901 = $(`<div id="html_81f5045fbaba9c67e48789615decd901" style="width: 100.0%; height: 100.0%;">POI: Toledo Zoo</div>`)[0];
+                popup_2c7100a6915b9f0d3f24122b62ab5335.setContent(html_81f5045fbaba9c67e48789615decd901);
+            
+        
+
+        marker_07ed2fea4bf1dac5ed1ae8f45e5466be.bindPopup(popup_2c7100a6915b9f0d3f24122b62ab5335)
+        ;
+
+        
+    
+    
+            var marker_c5af6ce191649d68b1e47bd2f88cd90b = L.marker(
+                [41.68019826430152, -83.51403753206714],
+                {}
+            ).addTo(map_72724ed86ccdff5ff6e106267f686387);
+        
+    
+            var icon_5415061e96aa85ca34c92d9bff02eb5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c5af6ce191649d68b1e47bd2f88cd90b.setIcon(icon_5415061e96aa85ca34c92d9bff02eb5c);
+        
+    
+        var popup_945918b979312ac1a4b87904dd403097 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e059f703c509590237e5d445d0dec93 = $(`<div id="html_2e059f703c509590237e5d445d0dec93" style="width: 100.0%; height: 100.0%;">POI: Toledo Museum of Art</div>`)[0];
+                popup_945918b979312ac1a4b87904dd403097.setContent(html_2e059f703c509590237e5d445d0dec93);
+            
+        
+
+        marker_c5af6ce191649d68b1e47bd2f88cd90b.bindPopup(popup_945918b979312ac1a4b87904dd403097)
+        ;
+
+        
+    
+    
+            var marker_97c6f824a8f20f87ee4bdee077b3318a = L.marker(
+                [41.701687334803694, -83.51806932954418],
+                {}
+            ).addTo(map_72724ed86ccdff5ff6e106267f686387);
+        
+    
+            var icon_6993c00c879f14dde26e0bf779e1f7c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_97c6f824a8f20f87ee4bdee077b3318a.setIcon(icon_6993c00c879f14dde26e0bf779e1f7c6);
+        
+    
+        var popup_831826ce92175098f3ee26e4c35f064b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ab1168c0d35aaea166fc3fb9cf6a49b = $(`<div id="html_2ab1168c0d35aaea166fc3fb9cf6a49b" style="width: 100.0%; height: 100.0%;">POI: Oak Openings Preserve</div>`)[0];
+                popup_831826ce92175098f3ee26e4c35f064b.setContent(html_2ab1168c0d35aaea166fc3fb9cf6a49b);
+            
+        
+
+        marker_97c6f824a8f20f87ee4bdee077b3318a.bindPopup(popup_831826ce92175098f3ee26e4c35f064b)
+        ;
+
+        
+    
+    
+            var marker_23d6d24e32d41b204151d890e778d51c = L.marker(
+                [41.61475597621577, -83.49666540528231],
+                {}
+            ).addTo(map_72724ed86ccdff5ff6e106267f686387);
+        
+    
+            var icon_952b7fca342955367a2c0a3f98718bbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23d6d24e32d41b204151d890e778d51c.setIcon(icon_952b7fca342955367a2c0a3f98718bbd);
+        
+    
+        var popup_703936196d380c8b57143633c25a9abc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c794cbe7944ef77804345a73061ab432 = $(`<div id="html_c794cbe7944ef77804345a73061ab432" style="width: 100.0%; height: 100.0%;">POI: Imagination Station</div>`)[0];
+                popup_703936196d380c8b57143633c25a9abc.setContent(html_c794cbe7944ef77804345a73061ab432);
+            
+        
+
+        marker_23d6d24e32d41b204151d890e778d51c.bindPopup(popup_703936196d380c8b57143633c25a9abc)
+        ;
+
+        
+    
+    
+            var marker_85fde685d988f6fb1fe602b1dd48605f = L.marker(
+                [41.66783079617953, -83.55510074932482],
+                {}
+            ).addTo(map_72724ed86ccdff5ff6e106267f686387);
+        
+    
+            var icon_8b28b8aa7c95921af1c4f3a3b4f63f69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_85fde685d988f6fb1fe602b1dd48605f.setIcon(icon_8b28b8aa7c95921af1c4f3a3b4f63f69);
+        
+    
+        var popup_3ef35702c8ae94d97b8b45ae4a2a6be3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd278ae92ece8baf5014e9605be0b03c = $(`<div id="html_cd278ae92ece8baf5014e9605be0b03c" style="width: 100.0%; height: 100.0%;">POI: Wildwood Preserve Metropark</div>`)[0];
+                popup_3ef35702c8ae94d97b8b45ae4a2a6be3.setContent(html_cd278ae92ece8baf5014e9605be0b03c);
+            
+        
+
+        marker_85fde685d988f6fb1fe602b1dd48605f.bindPopup(popup_3ef35702c8ae94d97b8b45ae4a2a6be3)
+        ;
+
+        
+    
+</script>
+</html>
